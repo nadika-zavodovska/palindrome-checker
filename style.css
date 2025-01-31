@@ -1,0 +1,42 @@
+body {
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.wrapper {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+#input {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid rgb(112, 112, 235);
+    font-size: 1.14rem;
+}
+
+#btn-check {
+    padding: 10px;
+    background-color: rgb(34, 49, 189);
+    color: #fff;
+    border-color: none;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 1.1rem;
+}
+
+#btn-check:hover {
+    background-color: rgb(22, 31, 107);
+}
+
+.palindrome {
+    color: rgb(2, 124, 2);
+}
+
+.not-palindrome {
+    color: rgb(190, 15, 15);
+}
+
+#result {
+    margin-top: 20px;
+}
